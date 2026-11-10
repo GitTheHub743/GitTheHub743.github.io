@@ -1,0 +1,32 @@
+@font-face {
+    font-family:'Courier New', Courier, monospace;
+    src: url('Quicksand-Regular.woff') format('woff'), 
+    url('Quicksand-Regular.ttf') format('truetype');
+}
+
+body {
+    color: rgb(0, 0, 0);
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1 {font-size: 2.5em;}
+h2 {font-size: 2em;}
+
+h1, h2 {
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 0.1em;
+}
+
+nav > ul {
+    line-height: 2em;
+}
+
+section {
+    background-color: bisque;
+}
+
+address {
+    color:rgb(240, 39, 39);
+    text-align: center;
+}
